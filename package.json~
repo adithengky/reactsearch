@@ -11,8 +11,7 @@
   "scripts": {
     "start": "webpack-dev-server --hot",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
-    "test:watch": "npm run test -- --watch",
-    "postinstall": "npm install"
+    "test:watch": "npm run test -- --watch"
   },
   "author": "",
   "license": "ISC",
